@@ -3,11 +3,10 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import { Link } from "react-router";
 
 const Book = ({ singleBook }) => {
-  console.log(singleBook);
+  // console.log(singleBook);
   const {
     bookId,
     bookName,
-    author,
     image,
     rating,
     category,

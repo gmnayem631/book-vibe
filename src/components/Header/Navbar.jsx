@@ -40,9 +40,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <Link to={"/"}>
-          <a href="" className="btn btn-outline btn-success">
-            Home
-          </a>
+          <span className="btn btn-outline btn-success">Home</span>
         </Link>
 
         <ul className="menu menu-horizontal px-1">
