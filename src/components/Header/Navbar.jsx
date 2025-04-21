@@ -35,13 +35,21 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Book Vibe</a>
+        <a className="text-2xl font-bold">Book Vibe</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <a href="" className="btn btn-outline btn-success">
+          Home
+        </a>
+
+        <ul className="menu menu-horizontal px-1">
+          <li className="m-3 text-[18px] text-[#131313CC]">Listed Books</li>
+          <li className="m-3 text-[18px] text-[#131313CC]">Pages to Read</li>
+        </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-4">
+        <a className="btn btn-success text-white">Login</a>
+        <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
       </div>
     </div>
   );
