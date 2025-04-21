@@ -39,8 +39,8 @@ const Navbar = () => {
         <a className="text-2xl font-bold">Book Vibe</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <Link to={"/"}>
-          <span className="btn btn-outline btn-success">Home</span>
+        <Link to={"/"} className="btn btn-outline btn-success">
+          Home
         </Link>
 
         <ul className="menu menu-horizontal px-1">
