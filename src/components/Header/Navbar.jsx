@@ -39,14 +39,17 @@ const Navbar = () => {
         <a className="text-2xl font-bold">Book Vibe</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <Link to={"/"} className="btn btn-outline btn-success">
-          Home
-        </Link>
-
         <ul className="menu menu-horizontal px-1">
-          <li className="m-3 text-[18px] text-[#131313CC] cursor-pointer">
-            Listed Books
-          </li>
+          <Link to={"/"}>
+            <li className="m-3 text-[18px] text-[#131313CC] cursor-pointer">
+              Home
+            </li>
+          </Link>
+          <Link to={"/readList"}>
+            <li className="m-3 text-[18px] text-[#131313CC] cursor-pointer">
+              Read List
+            </li>
+          </Link>
           <Link to={"/about"}>
             <li className="m-3 text-[18px] text-[#131313CC] cursor-pointer">
               About
